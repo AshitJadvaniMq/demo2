@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'input-output';
+  myVariable="My name is ashit"
+
+  getData(val:any){
+    console.log(val)
+  }
 }
